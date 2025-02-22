@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+    padding: 40px;
+    color: #222;
+}
+
+.container-fluid {
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border: none;
+}
+
+.card-header {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: #1e3a5f;
+    color: white;
+    padding: 18px;
+    border-radius: 12px 12px 0 0;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    transition: all 0.3s;
+}
+
+.form-control:focus {
+    border-color: #1e88e5;
+    box-shadow: 0px 0px 10px rgba(30, 136, 229, 0.5);
+}
+
+.btn {
+    border-radius: 10px;
+    padding: 12px 18px;
+    transition: all 0.3s ease-in-out;
+    font-weight: 600;
+}
+
+.btn-primary {
+    background-color: #1e88e5;
+    border-color: #1e88e5;
+}
+
+.btn-primary:hover {
+    background-color: #1565c0;
+}
+
+.btn-warning {
+    background-color: #ffb300;
+    border-color: #ffb300;
+}
+
+.btn-warning:hover {
+    background-color: #ff8f00;
+}
+
+.btn-danger {
+    background-color: #d32f2f;
+    border-color: #d32f2f;
+}
+
+.btn-danger:hover {
+    background-color: #b71c1c;
+}
+
+.table-responsive {
+    overflow-x: auto;
+    max-width: 100%;
+}
+
+.table {
+    min-width: 1300px;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    white-space: nowrap;
+    padding: 14px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #1e3a5f;
+    color: #ffffff;
+    text-align: left;
+    padding: 14px;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #eceff1;
+    cursor: pointer;
+}
+
+.search-box {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search-box input {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    padding: 12px;
+    border: 1px solid #bbb;
+    transition: all 0.3s;
+}
+
+.search-box input:focus {
+    border-color: #1e88e5;
+    box-shadow: 0px 0px 10px rgba(30, 136, 229, 0.5);
+}
